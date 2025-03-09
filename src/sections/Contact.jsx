@@ -19,28 +19,18 @@ const Contact = () => {
 
         try {
             await emailjs.send(
-                import.meta.env.VITE_EMAILJS_USERID,
-                import.meta.env.VITE_EMAILJS_TEMPLATEID,
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 {
                     from_name: form.name,
                     to_name: 'Stacy',
                     from_email: form.email,
-                    to_email: import.meta.env.VITE_EMAILJS_RECEIVERID,
+                    to_email: import.meta.env.VITE_EMAILJS_RECEIVER_ID,
                     message: form.message,
                 },
-                '' // optional public key if needed
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             );
-           // await emailjs.send(
-           //      'service_7hi6zr7',
-           //      'template_0zma7nc',
-           //      {from_name: form.name,
-           //      to_name: 'Stacy',
-           //      from_email: form.email,
-           //      to_email: 'anastasia@sstacymo.com',
-           //      message: form.message
-           //      },
-           //     ''
-           // )
+
             setLoading(false);
              alert('Your message has been sent!')
             setForm({

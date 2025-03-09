@@ -62,48 +62,23 @@ export const myProjects = [
         desc: 'I provide personalized UGC creation services that transform brand messaging into engaging, authentic content. My creative process ensures your story resonates deeply with your target audience.',
         subdesc: 'Empowering brands with compelling visuals and tailored social media strategies.',
         video: '/assets/project/project1.MOV',
-        tags: [
-            { id: 1, name: 'UGC', path: '/assets/ugc.svg' },
-            { id: 2, name: 'Content Creation', path: '/assets/content.svg' },
-            { id: 3, name: 'Social Media', path: '/assets/social.svg' },
-            { id: 4, name: 'Strategy', path: '/assets/strategy.svg' },
-        ],
     },
     {
         title: 'Social Media Strategy & Execution',
         desc: 'I craft integrated social media campaigns that elevate brand presence and drive genuine engagement. By combining creative storytelling with data-driven insights, I help brands connect meaningfully with their audience.',
         subdesc: 'Building powerful digital narratives that foster lasting relationships.',
         video: '/assets/project/project2.MP4',
-        tags: [
-            { id: 1, name: 'Social Media', path: '/assets/social.svg' },
-            { id: 2, name: 'Branding', path: '/assets/brand.svg' },
-            { id: 3, name: 'Campaigns', path: '/assets/campaign.svg' },
-            { id: 4, name: 'Analytics', path: '/assets/analytics.svg' },
-        ],
     },
     {
         title: 'Creative Mentorship & Consultancy',
         desc: 'I offer one-on-one mentorship and consultancy to help aspiring creators and brands unlock their creative potential. My guidance is tailored to foster growth and innovation in digital storytelling.',
         subdesc: 'Personalized strategies and expert advice to boost your creative journey.',
         video: '/assets/project/project4.mov',
-        tags: [
-            { id: 1, name: 'Mentorship', path: '/assets/mentor.svg' },
-            { id: 2, name: 'Consultancy', path: '/assets/consult.svg' },
-            { id: 3, name: 'UGC', path: '/assets/ugc.svg' },
-            { id: 4, name: 'Strategy', path: '/assets/strategy.svg' },
-        ],
     },
     {
         title: 'Brand Development & UGC Services',
         desc: 'I empower brands with authentic, user-generated content and strategic brand development. My services transform creative visions into impactful digital narratives that drive growth.',
         subdesc: 'Tailored content solutions to elevate your brand and engage your audience.',
-        video: '/assets/project/project5.mp4',
-        tags: [
-            { id: 1, name: 'UGC', path: '/assets/ugc.svg' },
-            { id: 2, name: 'Brand Development', path: '/assets/brand.svg' },
-            { id: 3, name: 'Content Strategy', path: '/assets/strategy.svg' },
-            { id: 4, name: 'Mentorship', path: '/assets/mentor.svg' },
-        ],
     },
 ];
 
