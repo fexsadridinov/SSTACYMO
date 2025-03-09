@@ -52,7 +52,7 @@ const Projects = () => {
                                 loop
                                 muted
                                 playsInline
-                                className="rounded-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[85%] h-[85%] object-contain"
+                                className="rounded-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[85%] h-[85%] pointer-events-none sm:pointer-events-auto object-cover"
                             />
                         ) : (
                             <img
